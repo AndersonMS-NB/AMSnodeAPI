@@ -1,0 +1,13 @@
+
+# ignorar arquivos
+src/config.js
+
+# ignorar diretórios
+node_modules
+
+# *  -> Ignora qq coisa
+#  *.log  -> 
+#  ? -> ignora 1 caracatere 
+
+
+
