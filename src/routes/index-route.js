@@ -6,7 +6,7 @@ const router = express.Router();
 router.get('/', (req, res, next) => {
     res.status(200).send({
         title: "AMS Node API",
-        version: "1.0.1"
+        version: "2.0.0"
     });
 });
 

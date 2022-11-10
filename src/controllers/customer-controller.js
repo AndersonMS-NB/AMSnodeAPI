@@ -29,8 +29,11 @@ exports.post = async(req, res, next) => {
 
         emailService.send(
             req.body.email,
-            'Bem vindo ao Node Store',
-            global.EMAIL_TMPL.replace('{0}', req.body.name));
+            'anderson.sepulveda@icloud.com' , // Change to your verified sender
+            'Bem vindo ao AMS Node API',
+            'Seu registro foi realizado com sucesso !',
+            global.EMAIL_TMPL.replace('{0}', req.body.name)
+    );
 
         res.status(201).send({
             message: 'Cliente cadastrado com sucesso!'
