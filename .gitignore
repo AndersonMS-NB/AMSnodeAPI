@@ -1,6 +1,6 @@
 
 # ignorar arquivos
-src/config.js
+#src/config.js
 
 # ignorar diretórios
 node_modules
