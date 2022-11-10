@@ -6,9 +6,9 @@ module.exports = {
     // Conexão mongobd - banco de Dados
     connectionString: 'mongodb+srv://ams:ams@amsdatabase.f94qdmw.mongodb.net/?retryWrites=true&w=majority',
 
-    // Conexão Storage na Azure
+    // Envo de E-mail
     sendgridKey: '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',
 
-    //
-    containerConnectionString: 'SUA CONNECTION STRING'
+    // Conexão Storage na Azure
+    containerConnectionString: 'DefaultEndpointsProtocol=https;AccountName=amsnode;AccountKey=46y68lCticj9ZfA732S680yJTxFLNFxwlLQLA9BHvUz+92Ccucbpw//B4srYoOpIwXEXGNQ6bltX+AStCTa3ZA==;EndpointSuffix=core.windows.net'
 }
